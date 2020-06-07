@@ -1,0 +1,71 @@
+.aside{
+    width: 25%;
+    height: 100vh;
+    background-color: #1F1F23;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.aside_title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 22px;
+    margin-bottom: 40px;
+}
+
+.aside_inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aside_social{
+    margin-bottom: 24px;
+}
+.aside_social_item{
+    display: flex;
+    align-items: center;
+    
+}
+.aside_social_img{
+    background-image: url(./img/social-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.aside_social_name{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.aside_social_discription{
+    font-weight: 300;
+    color: #fff;
+    font-size: 10px;
+    opacity: 0.9;
+}
+
+.aside_social_subscribe{
+    display: flex;
+    margin-left: 40px;
+}
+.aside_social_subscribe_mark{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+.aside_social_subscribe_col{
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
+}
